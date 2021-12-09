@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&family=Overpass:wght@600&family=Pacifico&family=Prompt:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(5, 10, 5, 0.80), rgba(71, 170, 231, 1));
+  background-color: #47AAE7;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: white;
+  font-size: 4.5rem;
+}
+.contenedorform{
+  position: center;
+  margin: 3vw 30vw;
+  top: 10vh;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #323435;
+  width: auto;
+  height: auto;
+  background-image: linear-gradient(rgba(86, 111, 194, 0.26), rgba(86, 111, 194, 0.09));
+
+}
+.typer{
+	color: #8dc63f !important;
+}
+
+.cursor{
+  color: white !important;
+}
+
+.contindex{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin: 30px 10px;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 150px;
+    cursor: pointer;
+}
+
+.navbar ul li.f {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+.navbar ul li.f a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto, "sans-serif";
+    font-size: 1.2rem;
+}
+
+.navbar ul li.f::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: yellowgreen;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+.navbar ul li.f:hover::before {
+    width: 100%;
+}
+
+.navbar ul li.f a.active::before {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background: yellowgreen;
+  position: absolute;
+  bottom: -12px;
+  color: yellowgreen;
+}
+/* Pa cerrar sesión */
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li.a {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+.navbar ul li.a a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto, "sans-serif";
+    font-size: 1.2rem;
+}
+
+.navbar ul li.a::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: #FF5733;;
+    position: absolute;
+    left: 0;
+    bottom: -5.2px;
+    transition: 0.4s ease-out;
+}
+
+.navbar ul li.a:hover::before {
+    width: 100%;
+}
+
+.navbar ul li.a a.active::before {
+  content: "";
+  height: 3px;
+  width: 100%;
+  background: yellowgreen;
+  position: absolute;
+  bottom: -12px;
+  color: yellowgreen;
+}
